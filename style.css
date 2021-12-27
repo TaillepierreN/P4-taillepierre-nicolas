@@ -91,7 +91,7 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img/texture-paper.png");
+    /* background: url("img/texture-paper.png"); */
     background-size: 280px 280px;
 }
 
@@ -285,6 +285,8 @@ a:hover {
 
 #bloc-1-hero h1 {
     font-size: 32px;
+    background-color: #0000009c;
+    border-radius: 10px;
 }
 
 .navbar {
@@ -438,6 +440,7 @@ nav .caret {
 .mg-md {
     margin-top: 10px;
     margin-bottom: 20px;
+    
 }
 
 .mg-lg {
@@ -677,7 +680,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 17px;
 }
 
 .tight-width-whitespace {
@@ -697,6 +700,7 @@ p {
     padding: 12px 28px 12px 28px;
     font-size: 16px;
     font-weight: 700;
+    text-shadow: 1px 1px 1px black;
 }
 
 .social {
@@ -753,7 +757,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: rgb(42 35 15 / 70%);
     padding: 40px 40px 40px 40px;
 }
 
@@ -823,6 +827,31 @@ h4 {
 
 .bg-presentation {
     background-image: url("img/image-de-presentation.bmp");
+}
+
+.title-text{
+    font-size: 2.2rem;
+    width: 73%;
+    margin: 10px auto;
+}
+.title2-text{
+    width: 45%;
+}
+.contacth2{
+    width: 50%;
+    margin: auto;
+    background-color: rgb(42 35 15 / 70%);
+    border-radius: 10px;
+}
+blockquote p{
+    font-size: 2rem;
+    width: 60%;
+    margin: 10px auto;
+    font-style: italic;
+}
+figcaption{
+    margin-top: -5px;
+    font-size: 1.8rem;
 }
 
 @media (max-width: 1024px) {
