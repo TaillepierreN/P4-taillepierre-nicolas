@@ -285,6 +285,8 @@ a:hover {
 
 #bloc-1-hero h1 {
     font-size: 32px;
+    background-color: #0000009c;
+    border-radius: 10px;
 }
 
 .navbar {
@@ -438,6 +440,7 @@ nav .caret {
 .mg-md {
     margin-top: 10px;
     margin-bottom: 20px;
+    
 }
 
 .mg-lg {
@@ -697,6 +700,7 @@ p {
     padding: 12px 28px 12px 28px;
     font-size: 16px;
     font-weight: 700;
+    text-shadow: 1px 1px 1px black;
 }
 
 .social {
@@ -753,7 +757,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: rgb(42 35 15 / 70%);
     padding: 40px 40px 40px 40px;
 }
 
@@ -832,6 +836,12 @@ h4 {
 }
 .title2-text{
     width: 45%;
+}
+.contacth2{
+    width: 50%;
+    margin: auto;
+    background-color: rgb(42 35 15 / 70%);
+    border-radius: 10px;
 }
 blockquote p{
     font-size: 2rem;
