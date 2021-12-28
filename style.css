@@ -286,7 +286,7 @@ a:hover {
 #bloc-1-hero h1 {
     font-size: 32px;
     background-color: #0000009c;
-    border-radius: 10px;
+
 }
 
 .navbar {
@@ -775,7 +775,7 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #302824;
 }
 
 .tc-white {
@@ -783,12 +783,12 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #a94414;
     color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
+    background: #d7581c!important;
     color: #FFFFFF!important;
 }
 
@@ -841,7 +841,6 @@ h4 {
     width: 50%;
     margin: auto;
     background-color: rgb(42 35 15 / 70%);
-    border-radius: 10px;
 }
 blockquote p{
     font-size: 2rem;
