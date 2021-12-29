@@ -865,13 +865,25 @@ figcaption{
     display: flex;
     width: 100%;
     justify-content: space-around;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     list-style: none;
     padding: 0;
+    margin-top: 10px;
 }
 .partner__list a{
     color: white!important;
+
+}
+
+.form__align{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 45px;
+}
+.adresse{
+    text-align: center;
 }
 @media (max-width: 1024px) {
     .bloc {
@@ -894,10 +906,7 @@ figcaption{
     .nav-center.navbar .nav {
         max-width: 100%
     }
-    .partner__list{
-    flex-direction: row;
 
-    }
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
@@ -942,6 +951,9 @@ figcaption{
 }
 
 @media (max-width: 767px) {
+    .partner__list{
+        flex-direction: column;
+        }
     .page-container {
         overflow-x: hidden;
         position: relative;
@@ -1091,4 +1103,5 @@ figcaption{
     .bloc-mob-center-text {
         text-align: center;
     }
+
 }
