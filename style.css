@@ -885,6 +885,9 @@ figcaption{
 .adresse{
     text-align: center;
 }
+*:focus{
+    border: 2px red solid;
+}
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
