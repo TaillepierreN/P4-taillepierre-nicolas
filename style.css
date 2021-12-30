@@ -936,10 +936,6 @@ figcaption{
         overflow-x: hidden;
         position: relative;
     }
-    .bloc {
-        padding: env(safe-area-inset-left);
-        padding: env(safe-area-inset-right);
-    }
     .bloc-group,
     .bloc-group .bloc {
         display: block;
@@ -948,8 +944,6 @@ figcaption{
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
-        padding: env(safe-area-inset-left);
-        padding: env(safe-area-inset-right);
     }
 }
 
