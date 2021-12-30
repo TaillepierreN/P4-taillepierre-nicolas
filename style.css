@@ -873,8 +873,10 @@ figcaption{
 }
 .partner__list a{
     color: white!important;
-
 }
+.partner_list__link{
+    height: 46px;
+    }
 
 .form__align{
     display: flex;
