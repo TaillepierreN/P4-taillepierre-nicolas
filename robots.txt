@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://taillepierren.github.io/P4_taillepierre_nicolas/sitemap.xml
