@@ -893,6 +893,10 @@ figcaption{
 cite{
     color: black;
 }
+.pic{
+    max-width: 300px;
+    max-height: 300px;
+}
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
