@@ -897,6 +897,10 @@ cite{
     width: 270px;
     height: 270px;
 }
+.banlogo{
+    height: 40px;
+    width: auto;
+}
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
